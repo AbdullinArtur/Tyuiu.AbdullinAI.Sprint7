@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace Tyuiu.AbdullinAI.Sprint7.Project.V4
 {
-    public partial class FormAbout : Form
+    public partial class FormTutorial : Form
     {
-        public FormAbout()
+        public FormTutorial()
         {
             InitializeComponent();
         }
 
-        private void buttonClose_AAI_Click(object sender, EventArgs e)
+        private void buttonCloseTut_AAI_Click(object sender, EventArgs e)
         {
             this.Close();
         }

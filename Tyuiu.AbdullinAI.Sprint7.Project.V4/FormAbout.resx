@@ -117,16 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="openFileDialog_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="saveFileDialog_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>176, 20</value>
-  </metadata>
-  <metadata name="toolTip_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>329, 20</value>
-  </metadata>
-  <metadata name="toolTip_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>329, 20</value>
-  </metadata>
+  <data name="labelInformation_AAI.Text" xml:space="preserve">
+    <value>Разработчик: Абдуллин Артур Ильгизович
+Группа: АСОиУб-23-1
+
+Программа разработана в рамках учебного проекта
+
+Тюменский индустриальный университет (с) 2023
+Высшая школа цифровых технологий (с) 2023
+</value>
+  </data>
+  <data name="labelAboutProgramm_AAI.Text" xml:space="preserve">
+    <value>Предметная область: Библиотека
+
+В прогрмамме доступно: открытие файла; редактирование файла;
+сохранение файла; поиск статистики;вывод статистики; графики.
+
+Перед использованием программы внимательно ознакомтесь
+с тьюториалом!
+
+</value>
+  </data>
 </root>

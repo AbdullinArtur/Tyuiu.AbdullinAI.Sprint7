@@ -117,16 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="openFileDialog_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="saveFileDialog_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>176, 20</value>
-  </metadata>
-  <metadata name="toolTip_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>329, 20</value>
-  </metadata>
-  <metadata name="toolTip_AAI.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>329, 20</value>
-  </metadata>
+  <data name="labelInformation_AAI.Text" xml:space="preserve">
+    <value>Здравствуйте! Это краткий тьюториал по пользованию программы!
+Обязательно прочитайте его перед использованием программы.
+
+Прежде всего вам будет доступна кнопка "Загрузить файл"
+После её нажатия, перед вами будет доступно всплывающее окно
+выбора файла, с которым вы хотите произвести определенные действия.
+
+Выбрав файл, вам станут доступны такие функции как: редактирование файла,
+сохранение файла      , раздел статистики и поиск по базе данных.
+
+Замечание!
+При редактировании файла, вы не сможете сразу совершить над ним какие-либо действия,
+так как будет выводиться информация основываясь на файл до редактирования. Настояятельно 
+советуем заново загрузить уже отредактированный файл в программу, если вы хотите работать 
+именно с отредактированными даннымы.
+</value>
+  </data>
 </root>

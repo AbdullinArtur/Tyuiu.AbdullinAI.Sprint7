@@ -83,6 +83,16 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap information {
+            get {
+                object obj = ResourceManager.GetObject("information", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap page_go {
             get {
                 object obj = ResourceManager.GetObject("page_go", resourceCulture);
@@ -96,6 +106,36 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties {
         internal static System.Drawing.Bitmap page_save {
             get {
                 object obj = ResourceManager.GetObject("page_save", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo {
+            get {
+                object obj = ResourceManager.GetObject("photo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2023_07_02_14_36_27 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2023-07-02_14-36-27", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_suit {
+            get {
+                object obj = ResourceManager.GetObject("user_suit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

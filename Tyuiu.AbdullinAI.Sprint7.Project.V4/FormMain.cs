@@ -27,6 +27,7 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4
         {
             FormAbout formabout = new FormAbout();
             formabout.ShowDialog();
+            buttonTutorial_AAI.Enabled = true;
         }
 
         static int cols;
@@ -135,7 +136,13 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4
                 }
             }
 
-            
+            buttonBookMax_AAI.Enabled = true;
+            buttonCount_AAI.Enabled = true;
+            buttonMax_AAI.Enabled = true;
+            buttonMin_AAI.Enabled = true;
+            buttonMiddle_AAI.Enabled = true;
+            buttonSearch_AAI.Enabled = true;   
+            buttonSaveFile_AAI.Enabled = true;
         }
 
         
@@ -157,13 +164,13 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4
 
         private void buttonMiddle_AAI_Click(object sender, EventArgs e)
         {
-            textBoxMiddle_AAI.Text = Convert.ToString(ds.BookSumm(path, cost) / (rows - 1));
+            textBoxMiddle_AAI.Text = Convert.ToString(ds.BookSumm(path, cost) / (rows - 1));          
         }
 
         private void buttonCount_AAI_Click(object sender, EventArgs e)
-        {
-            
+        {         
             textBoxCount_AAI.Text = Convert.ToString(rows - 1);
+            buttonFunction_AAI.Enabled = true;
         }
 
         private void buttonSearch_AAI_Click(object sender, EventArgs e)
@@ -214,6 +221,22 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4
                 MessageBox.Show("Нельзя найти отрицательный или нулевой элемент!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
+        }
+
+        private void buttonTutorial_AAI_Click(object sender, EventArgs e)
+        {
+            FormTutorial formTut = new FormTutorial();
+            formTut.ShowDialog();
+            buttonOpenFile_AAI.Enabled = true;
+        }
+       
+
+        private void buttonFunction_AAI_Click(object sender, EventArgs e)
+        {
+            FormFunction formf = new FormFunction();
+            formf.pathFunc = path;
+            formf.Show();
+
         }
     }
 
