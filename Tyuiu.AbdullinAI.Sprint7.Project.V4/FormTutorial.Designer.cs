@@ -77,8 +77,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.page_save;
-            this.pictureBox2.Location = new System.Drawing.Point(150, 158);
+            this.pictureBox2.Location = new System.Drawing.Point(150, 192);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(19, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -87,7 +86,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.folder_page;
             this.pictureBox1.Location = new System.Drawing.Point(463, 78);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 21);
