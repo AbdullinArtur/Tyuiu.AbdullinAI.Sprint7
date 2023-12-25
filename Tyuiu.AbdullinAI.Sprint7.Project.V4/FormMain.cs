@@ -211,14 +211,14 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4
                 {
                     dataGridViewData_AAI.Columns.Clear();
                     dataGridViewData_AAI.Rows.Clear();
-                    MessageBox.Show("В базе данных нет такого количества элементов!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("В базе данных нет такого количества элементов! Загрузите файл заново!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch
             {
                 dataGridViewData_AAI.Columns.Clear();
                 dataGridViewData_AAI.Rows.Clear();
-                MessageBox.Show("Нельзя найти отрицательный или нулевой элемент!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Нельзя найти отрицательный или нулевой элемент! Загрузите файл заново!", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
         }
@@ -237,7 +237,7 @@ namespace Tyuiu.AbdullinAI.Sprint7.Project.V4
             formf.pathFunc = path;
             formf.Show();
 
-        }
+        }      
     }
 
 

@@ -30,12 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelTop_AAI = new System.Windows.Forms.Panel();
+            this.buttonTutorial_AAI = new System.Windows.Forms.Button();
+            this.buttonSaveFile_AAI = new System.Windows.Forms.Button();
+            this.buttonHelp_AAI = new System.Windows.Forms.Button();
+            this.buttonOpenFile_AAI = new System.Windows.Forms.Button();
             this.buttonBookMax_AAI = new System.Windows.Forms.Button();
             this.openFileDialog_AAI = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog_AAI = new System.Windows.Forms.SaveFileDialog();
             this.dataGridViewData_AAI = new System.Windows.Forms.DataGridView();
             this.textBoxSumm_AAI = new System.Windows.Forms.TextBox();
             this.groupBoxStats_AAI = new System.Windows.Forms.GroupBox();
+            this.buttonFunction_AAI = new System.Windows.Forms.Button();
             this.textBoxCount_AAI = new System.Windows.Forms.TextBox();
             this.textBoxMiddle_AAI = new System.Windows.Forms.TextBox();
             this.textBoxMin_AAI = new System.Windows.Forms.TextBox();
@@ -52,11 +57,6 @@
             this.buttonSearch_AAI = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.buttonFunction_AAI = new System.Windows.Forms.Button();
-            this.buttonTutorial_AAI = new System.Windows.Forms.Button();
-            this.buttonSaveFile_AAI = new System.Windows.Forms.Button();
-            this.buttonHelp_AAI = new System.Windows.Forms.Button();
-            this.buttonOpenFile_AAI = new System.Windows.Forms.Button();
             this.panelTop_AAI.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewData_AAI)).BeginInit();
             this.groupBoxStats_AAI.SuspendLayout();
@@ -76,6 +76,64 @@
             this.panelTop_AAI.Name = "panelTop_AAI";
             this.panelTop_AAI.Size = new System.Drawing.Size(1109, 92);
             this.panelTop_AAI.TabIndex = 0;
+            // 
+            // buttonTutorial_AAI
+            // 
+            this.buttonTutorial_AAI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonTutorial_AAI.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonTutorial_AAI.Enabled = false;
+            this.buttonTutorial_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonTutorial_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.help;
+            this.buttonTutorial_AAI.Location = new System.Drawing.Point(941, 13);
+            this.buttonTutorial_AAI.Name = "buttonTutorial_AAI";
+            this.buttonTutorial_AAI.Size = new System.Drawing.Size(75, 65);
+            this.buttonTutorial_AAI.TabIndex = 4;
+            this.toolTip_AAI.SetToolTip(this.buttonTutorial_AAI, "Краткое руководство о пользовании программой\r\n");
+            this.buttonTutorial_AAI.UseVisualStyleBackColor = false;
+            this.buttonTutorial_AAI.Click += new System.EventHandler(this.buttonTutorial_AAI_Click);
+            // 
+            // buttonSaveFile_AAI
+            // 
+            this.buttonSaveFile_AAI.BackColor = System.Drawing.SystemColors.Info;
+            this.buttonSaveFile_AAI.Enabled = false;
+            this.buttonSaveFile_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSaveFile_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.page_save;
+            this.buttonSaveFile_AAI.Location = new System.Drawing.Point(93, 13);
+            this.buttonSaveFile_AAI.Name = "buttonSaveFile_AAI";
+            this.buttonSaveFile_AAI.Size = new System.Drawing.Size(75, 65);
+            this.buttonSaveFile_AAI.TabIndex = 3;
+            this.toolTip_AAI.SetToolTip(this.buttonSaveFile_AAI, "Сохранить файл по указаному пути");
+            this.buttonSaveFile_AAI.UseVisualStyleBackColor = false;
+            this.buttonSaveFile_AAI.Click += new System.EventHandler(this.buttonSaveFile_AAI_Click);
+            // 
+            // buttonHelp_AAI
+            // 
+            this.buttonHelp_AAI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonHelp_AAI.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.buttonHelp_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHelp_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.information;
+            this.buttonHelp_AAI.Location = new System.Drawing.Point(1022, 13);
+            this.buttonHelp_AAI.Name = "buttonHelp_AAI";
+            this.buttonHelp_AAI.Size = new System.Drawing.Size(75, 65);
+            this.buttonHelp_AAI.TabIndex = 2;
+            this.toolTip_AAI.SetToolTip(this.buttonHelp_AAI, "Информации о программе\r\nи разработчике");
+            this.buttonHelp_AAI.UseVisualStyleBackColor = false;
+            this.buttonHelp_AAI.Click += new System.EventHandler(this.buttonHelp_AAI_Click);
+            // 
+            // buttonOpenFile_AAI
+            // 
+            this.buttonOpenFile_AAI.BackColor = System.Drawing.SystemColors.Info;
+            this.buttonOpenFile_AAI.Enabled = false;
+            this.buttonOpenFile_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOpenFile_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.folder_page;
+            this.buttonOpenFile_AAI.Location = new System.Drawing.Point(12, 13);
+            this.buttonOpenFile_AAI.Name = "buttonOpenFile_AAI";
+            this.buttonOpenFile_AAI.Size = new System.Drawing.Size(75, 65);
+            this.buttonOpenFile_AAI.TabIndex = 0;
+            this.toolTip_AAI.SetToolTip(this.buttonOpenFile_AAI, "Выберите фалй, с которым вы хотите выполнить редактирование\r\nили поиск информации" +
+        "\r\n");
+            this.buttonOpenFile_AAI.UseVisualStyleBackColor = false;
+            this.buttonOpenFile_AAI.Click += new System.EventHandler(this.buttonOpenFile_AAI_Click);
             // 
             // buttonBookMax_AAI
             // 
@@ -134,6 +192,19 @@
             this.groupBoxStats_AAI.TabIndex = 4;
             this.groupBoxStats_AAI.TabStop = false;
             this.groupBoxStats_AAI.Text = "Статистика";
+            // 
+            // buttonFunction_AAI
+            // 
+            this.buttonFunction_AAI.BackColor = System.Drawing.Color.Khaki;
+            this.buttonFunction_AAI.Enabled = false;
+            this.buttonFunction_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFunction_AAI.Location = new System.Drawing.Point(525, 47);
+            this.buttonFunction_AAI.Name = "buttonFunction_AAI";
+            this.buttonFunction_AAI.Size = new System.Drawing.Size(109, 65);
+            this.buttonFunction_AAI.TabIndex = 11;
+            this.buttonFunction_AAI.Text = "Показать графики";
+            this.buttonFunction_AAI.UseVisualStyleBackColor = false;
+            this.buttonFunction_AAI.Click += new System.EventHandler(this.buttonFunction_AAI_Click);
             // 
             // textBoxCount_AAI
             // 
@@ -301,77 +372,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1109, 391);
             this.panel2.TabIndex = 7;
-            // 
-            // buttonFunction_AAI
-            // 
-            this.buttonFunction_AAI.BackColor = System.Drawing.Color.Khaki;
-            this.buttonFunction_AAI.Enabled = false;
-            this.buttonFunction_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFunction_AAI.Location = new System.Drawing.Point(525, 47);
-            this.buttonFunction_AAI.Name = "buttonFunction_AAI";
-            this.buttonFunction_AAI.Size = new System.Drawing.Size(109, 65);
-            this.buttonFunction_AAI.TabIndex = 11;
-            this.buttonFunction_AAI.Text = "Показать графики";
-            this.buttonFunction_AAI.UseVisualStyleBackColor = false;
-            this.buttonFunction_AAI.Click += new System.EventHandler(this.buttonFunction_AAI_Click);
-            // 
-            // buttonTutorial_AAI
-            // 
-            this.buttonTutorial_AAI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonTutorial_AAI.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonTutorial_AAI.Enabled = false;
-            this.buttonTutorial_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonTutorial_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.help;
-            this.buttonTutorial_AAI.Location = new System.Drawing.Point(941, 13);
-            this.buttonTutorial_AAI.Name = "buttonTutorial_AAI";
-            this.buttonTutorial_AAI.Size = new System.Drawing.Size(75, 65);
-            this.buttonTutorial_AAI.TabIndex = 4;
-            this.toolTip_AAI.SetToolTip(this.buttonTutorial_AAI, "Краткое руководство о пользовании программой\r\n");
-            this.buttonTutorial_AAI.UseVisualStyleBackColor = false;
-            this.buttonTutorial_AAI.Click += new System.EventHandler(this.buttonTutorial_AAI_Click);
-            // 
-            // buttonSaveFile_AAI
-            // 
-            this.buttonSaveFile_AAI.BackColor = System.Drawing.SystemColors.Info;
-            this.buttonSaveFile_AAI.Enabled = false;
-            this.buttonSaveFile_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSaveFile_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.page_save;
-            this.buttonSaveFile_AAI.Location = new System.Drawing.Point(93, 13);
-            this.buttonSaveFile_AAI.Name = "buttonSaveFile_AAI";
-            this.buttonSaveFile_AAI.Size = new System.Drawing.Size(75, 65);
-            this.buttonSaveFile_AAI.TabIndex = 3;
-            this.toolTip_AAI.SetToolTip(this.buttonSaveFile_AAI, "Сохранить файл по указаному пути");
-            this.buttonSaveFile_AAI.UseVisualStyleBackColor = false;
-            this.buttonSaveFile_AAI.Click += new System.EventHandler(this.buttonSaveFile_AAI_Click);
-            // 
-            // buttonHelp_AAI
-            // 
-            this.buttonHelp_AAI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonHelp_AAI.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.buttonHelp_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHelp_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.information;
-            this.buttonHelp_AAI.Location = new System.Drawing.Point(1022, 13);
-            this.buttonHelp_AAI.Name = "buttonHelp_AAI";
-            this.buttonHelp_AAI.Size = new System.Drawing.Size(75, 65);
-            this.buttonHelp_AAI.TabIndex = 2;
-            this.toolTip_AAI.SetToolTip(this.buttonHelp_AAI, "Информации о программе\r\nи разработчике");
-            this.buttonHelp_AAI.UseVisualStyleBackColor = false;
-            this.buttonHelp_AAI.Click += new System.EventHandler(this.buttonHelp_AAI_Click);
-            // 
-            // buttonOpenFile_AAI
-            // 
-            this.buttonOpenFile_AAI.BackColor = System.Drawing.SystemColors.Info;
-            this.buttonOpenFile_AAI.Enabled = false;
-            this.buttonOpenFile_AAI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOpenFile_AAI.Image = global::Tyuiu.AbdullinAI.Sprint7.Project.V4.Properties.Resources.folder_page;
-            this.buttonOpenFile_AAI.Location = new System.Drawing.Point(12, 13);
-            this.buttonOpenFile_AAI.Name = "buttonOpenFile_AAI";
-            this.buttonOpenFile_AAI.Size = new System.Drawing.Size(75, 65);
-            this.buttonOpenFile_AAI.TabIndex = 0;
-            this.toolTip_AAI.SetToolTip(this.buttonOpenFile_AAI, "Выберите фалй, с которым вы хотите выполнить редактирование\r\nили поиск информации" +
-        "\r\n");
-            this.buttonOpenFile_AAI.UseVisualStyleBackColor = false;
-            this.buttonOpenFile_AAI.Click += new System.EventHandler(this.buttonOpenFile_AAI_Click);
             // 
             // FormMain
             // 
